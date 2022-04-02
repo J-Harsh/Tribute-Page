@@ -70,6 +70,7 @@ section
   justify-content: center;
   max-width: 700px;
   margin: 0 auto;
+  align-items: center;
 }
 
 .tweets
@@ -114,13 +115,18 @@ footer a
     text-decoration: none;
 }
 
-img
+img 
 {
+    max-width: 500px;
     display: block;
-    width: 100%;
-    padding: 10px;
+    height: auto;
+    margin: 0 auto;
 }
 
+#img-div
+{
+    width:auto;
+}
 
 #img-caption
 {
